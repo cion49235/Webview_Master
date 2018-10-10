@@ -29,8 +29,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+
         <activity
             android:name="com.just.agentweb.annie.activity.WebActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
             android:launchMode="singleTop"
 
             ></activity>

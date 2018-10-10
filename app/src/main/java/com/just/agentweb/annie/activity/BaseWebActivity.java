@@ -119,8 +119,7 @@ public class BaseWebActivity extends AppCompatActivity {
     };
 
     public String getUrl() {
-
-        return "https://m.jd.com/";
+        return "https://dasibogilink.com";
     }
 
 
